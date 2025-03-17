@@ -4,9 +4,9 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const HeaderComponent = ({ title }) => {
   return (
     <View style={styles.headerContainer}>
-      <Image source={require('./heder.png')} style={styles.icon} />
+      <Image source={require('../heder.png')} style={styles.icon} />
       <Text style={styles.title}>{title}</Text>
-      <Image source={require('./heder.png')} style={styles.icon} />
+      <Image source={require('../heder.png')} style={styles.icon} />
     </View>
   );
 };
